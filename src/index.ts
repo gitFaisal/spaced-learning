@@ -6,7 +6,7 @@ dotenv.config();
 const main = async () => {
   const app: Express = express();
 
-  app.get("/", (_req, res) => res.send("hello world"));
+  app.get("/", (_req, res) => res.send("hello worlda"));
 
   const PORT = process.env.PORT || 8000;
 
